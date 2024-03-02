@@ -13,7 +13,7 @@ Các lệnh như: select from, insert/update/delete
 - DBMS: Hệ quản trị cơ sở dữ liệu
 ### Các loại cơ sở dữ liệu 
 
-- Có 2 loại chính: Cơ sở dữ liệu quan hệ(Relational Database), csdl không quan hệ (No SQL Database)
+Gồm 2 loại chính: Cơ sở dữ liệu quan hệ(Relational Database), csdl không quan hệ (No SQL Database)
 
 ***1. Cơ sở dữ liệu quan hệ(Relational Database)***
 Trong cơ sở dữ liệu quan hệ, có thể tạo mối quan hệ giữa các bảng.

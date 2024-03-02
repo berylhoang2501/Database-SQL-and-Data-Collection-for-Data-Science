@@ -39,3 +39,5 @@ Trong cơ sở dữ liệu quan hệ, có thể tạo mối quan hệ giữa cá
 - Data visualization and Model evaluation
 
 ### Cài đặt cơ sở dữ liệu MySQL
+
+- Chọn phiên bản hỗ trợ theo hdh

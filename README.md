@@ -16,12 +16,26 @@ Các lệnh như: select from, insert/update/delete
 Gồm 2 loại chính: Cơ sở dữ liệu quan hệ(Relational Database), csdl không quan hệ (No SQL Database)
 
 ***1. Cơ sở dữ liệu quan hệ(Relational Database)***
+
 Trong cơ sở dữ liệu quan hệ, có thể tạo mối quan hệ giữa các bảng.
 
 - Một số Relational Database phổ biến: My SQL, PostgreSQL, SQLite, Microsoft SQL Server, Oracle Database
   
 ***2. Cơ sở dữ liệu không quan hệ (No SQL Database)***
 
+{...} biểu diễn 1 đối tượng (object)
+
+[...] biểu diễn một danh sách (collection)
 
 ### Tổng quan về SQL
+
+***Tầm quan trọng của SQL trong Data Science***
+
+- Data cleaning
+- Data exploration: khám phá để phân tích mối quan hệ, insight dữ liệu
+- Data transformation
+- Feature engineering
+- Data integration
+- Data visualization and Model evaluation
+
 ### Cài đặt cơ sở dữ liệu MySQL

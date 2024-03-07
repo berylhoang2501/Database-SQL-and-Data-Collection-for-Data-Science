@@ -41,3 +41,34 @@ Trong cơ sở dữ liệu quan hệ, có thể tạo mối quan hệ giữa cá
 ### Cài đặt cơ sở dữ liệu MySQL
 
 - Chọn phiên bản hỗ trợ theo hdh
+
+## 7/3/2024: Buổi học 3: Basic SQL
+### Limit và Order by
+- Order by: sắp thứ tự kết quả truy vấn (ASC: sắp xếp tăng, DESC: sắp xếp giảm). thứ tự sắp xếp ưu tiên từ trái sang phải.
+- Limit: giới hạn số dòng kết quả truy vấn
+
+### Aggregate Functions
+
+- Hàm count(): đếm. count(*): đếm dòng -> có bao nhiêu dòng trả về bấy nhiêu dòng
+- Hàm sum(): tính tổng
+- Hàm avg(): tính giá trị trung bình
+- Hàm min và max(): tính tổng
+
+### Group by, Having
+- Group by: truy vấn có nhóm
+- Thứ tự thưc hiện select:
+
+SELECT
+
+FROM
+
+WHERE
+
+GROUP BY
+
+HAVING
+
+ORDER BY
+
+LIMIT
+

@@ -171,9 +171,7 @@ GROUP BY Cộtnhóm/Biểuthứcnhóm
 
 Những cột nào không thực hiện thống kê tính toán trên cột đó thì phải được khai báo vào group by
 
-[HAVING điều kiện lọc nhóm]
-
-HAVING
+HAVING [điều kiện lọc nhóm]
 
 lưu ý: khi đã có sự xuất hiện của having thì chắc chắn phải có group by, nhưng điều này không có nghĩa ngược lại
 

@@ -108,10 +108,15 @@ FROM Tên bảng
 WHERE điều kiện lọc dòng;
 
 ***1. Kết hợp các điều kiện: AND và OR***
+
 ***2. Phủ định điều kiện: NOT***
+
 ***3. So sánh: =, !=, >, >=, <, =<***
+
 ***4. Toán tử: IN và BETWEEN***
+
 ***5. So sánh gần đúng: LIKE***
+
 ## 7/3/2024: Buổi học 3: Basic SQL
 ### Limit và Order by
 - Order by: sắp thứ tự kết quả truy vấn (ASC: sắp xếp tăng, DESC: sắp xếp giảm). thứ tự sắp xếp ưu tiên từ trái sang phải.

@@ -41,7 +41,7 @@ Trong cơ sở dữ liệu quan hệ, có thể tạo mối quan hệ giữa cá
 ### Cài đặt cơ sở dữ liệu MySQL
 
 - Chọn phiên bản hỗ trợ theo hdh
-## 7/3/2024: Buổi học 2: Basic SQL
+## 3/3/2024: Buổi học 2: Basic SQL
 
 Có thể chia SQL ra làm 4 nhóm lệnh
 
@@ -61,30 +61,30 @@ Trong khoá học này chỉ tập trung lệnh SELECT FROM và 1 ít lệnh DML
 
 ### Data Type
 ***1. Kiểu số***
-• BIT: 0 hoặc 1 (Boolean)
-• SMALLINT: số nguyên 2 bytes, từ -32768 đến +32767
-• INTEGER (INT): số nguyên 4 bytes, từ -2147483648 đến +2147483647
-• BIGINT: số nguyên 8 bytes, ừt -9223372036854775808 đến +9223372036854775807
-• FLOAT: số thực 4 bytes, từ -7.2E+75 đến 7.2E+75 
-• DOUBLE: số thực 8 bytes (giống float nhưng lưu trữ được nhiều hơn)
+- BIT: 0 hoặc 1 (Boolean)
+- SMALLINT: số nguyên 2 bytes, từ -32768 đến +32767
+- INTEGER (INT): số nguyên 4 bytes, từ -2147483648 đến +2147483647
+- BIGINT: số nguyên 8 bytes, ừt -9223372036854775808 đến +9223372036854775807
+- FLOAT: số thực 4 bytes, từ -7.2E+75 đến 7.2E+75 
+- DOUBLE: số thực 8 bytes (giống float nhưng lưu trữ được nhiều hơn)
 
 ***2. Kiểu chuỗi***
-• CHAR(n): Chuỗi có độ dài cố định n bytes (với n từ 1 255) (ví dụ: có thể dùng để lưu trữ tuổi)
-• VARCHAR(n): Chuỗi có độ dài khác nhau với tối đa n bytes
+- CHAR(n): Chuỗi có độ dài cố định n bytes (với n từ 1 255) (ví dụ: có thể dùng để lưu trữ tuổi)
+- VARCHAR(n): Chuỗi có độ dài khác nhau với tối đa n bytes
 (với n từ 1→ 65535) (ví dụ: có thể dùng để lưu trữ họ và tên)
 
 2 kiểu sau naỳ giống với 2 kiểu trc, chỉ khác ở chỗ sẽ đổi thành chuỗi nhị phân trước khi lưu trữ.
 
-• BINARY(n): Chuỗi nhị phân có độ dài cố định n bytes (với n
+- BINARY(n): Chuỗi nhị phân có độ dài cố định n bytes (với n
 từ 1 → 255)
-• VARBINARY(n): Chuỗi nhị phân có độ dài khác nhau với tối
+- VARBINARY(n): Chuỗi nhị phân có độ dài khác nhau với tối
 đa nbytes (với ntừ 1→65535)
 
 ***3. Kiểu ngày giờ***
-• DATE: Kiểu ngày với 3 giá trị năm, tháng, ngày (từ 0001- 01-01 đến 9999-12-31)
-• TIME: Kiểu giờ với 3 giá trị giờ, phút, giây (từ 00.00.00
+- DATE: Kiểu ngày với 3 giá trị năm, tháng, ngày (từ 0001- 01-01 đến 9999-12-31)
+- TIME: Kiểu giờ với 3 giá trị giờ, phút, giây (từ 00.00.00
 đến 24.00.00)
-• TIMESTAMP: giống 2 kiểu trên nhưng thêm vào micro giây
+- TIMESTAMP: giống 2 kiểu trên nhưng thêm vào micro giây
 
 ***4. Kiểu dữ liệu lớn (LOB large object)***
 

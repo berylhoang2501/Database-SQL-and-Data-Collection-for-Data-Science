@@ -124,14 +124,35 @@ between điểm bắt đầu and điểm kết thúc
 
 _:có đúng một ký tự
 
+- So sánh với null. lưu ý đối với so sánh null phải sử dụng is null chứ không được sử dụng = null
+
 ## 7/3/2024: Buổi học 3: Basic SQL
 ### Limit và Order by
-- Order by: sắp thứ tự kết quả truy vấn (ASC: sắp xếp tăng, DESC: sắp xếp giảm). thứ tự sắp xếp ưu tiên từ trái sang phải.
+
+- Order by: sắp thứ tự kết quả truy vấn (ASC: sắp xếp tăng, DESC: sắp xếp giảm). thứ tự sắp xếp ưu tiên từ trái sang phải theo câu lệnh truy vấn. mặc định là sắp xếp tăng
+
 - Limit: giới hạn số dòng kết quả truy vấn
 
-### Aggregate Functions
+limit[bỏ qua n dòng đầu tiên, lấy n dòng tiếp theo]
+
+- Cú pháp:
+
+SELECT */tên cột 
+
+FROM Tên bảng
+
+WHERE điều kiện lọc dòng 
+
+ORDER BY cột sắp thứ tự [ASC|DESC]
+
+LIMIT số dòng giới hạn [OFFSET số dòng bỏ qua]; 
+
+### Aggregate Functions (các hàm dùng để thống kê)
 
 - Hàm count(): đếm. count(*): đếm dòng -> có bao nhiêu dòng trả về bấy nhiêu dòng
+
+count(distinct _ )
+
 - Hàm sum(): tính tổng
 - Hàm avg(): tính giá trị trung bình
 - Hàm min và max(): tính tổng
@@ -146,11 +167,35 @@ FROM
 
 WHERE
 
-GROUP BY
+GROUP BY Cộtnhóm/Biểuthứcnhóm
+
+Những cột nào không thực hiện thống kê tính toán trên cột đó thì phải được khai báo vào group by
+
+[HAVING điều kiện lọc nhóm]
 
 HAVING
+
+lưu ý: khi đã có sự xuất hiện của having thì chắc chắn phải có group by, nhưng điều này không có nghĩa ngược lại
 
 ORDER BY
 
 LIMIT
+
+### Built-in Functions
+***1. Nhóm hàm về chuỗi (String
+Functions)*** 
+
+Ví dụ: hàm UPPER(), LOWER(), CHAR_LENGTH ('') 
+
+***2. Nhóm hàm về số
+(Numeric Functions)*** 
+
+Ví dụ: hàm ABS(),POW()
+
+***3. Nhóm hàm về ngày (Date Functions)*** 
+
+Ví dụ: hàm CURRENT_DATE(), CURRENT_TIME()
+
+https://www.w3schools.com/mysql/mysql_ref_functions.asp
+
 

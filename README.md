@@ -116,7 +116,13 @@ WHERE điều kiện lọc dòng;
 
 ***4. Toán tử: IN và BETWEEN***
 
+between điểm bắt đầu and điểm kết thúc
+
 ***5. So sánh gần đúng: LIKE***
+
+%: không có ký tự hoặc có các ký tự bất kỳ 
+
+_:có đúng một ký tự
 
 ## 7/3/2024: Buổi học 3: Basic SQL
 ### Limit và Order by

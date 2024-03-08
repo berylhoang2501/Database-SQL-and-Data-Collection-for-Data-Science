@@ -100,7 +100,8 @@ FROM Tên bảng;
 
 ### WHERE
 - Chức năng: dùng để lọc dữ liệu cho bảng
-- Cú pháp
+- Cú pháp:
+  
 SELECT */tên cột hoặc các cột
 
 FROM Tên bảng

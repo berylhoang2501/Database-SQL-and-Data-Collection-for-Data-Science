@@ -196,4 +196,63 @@ Ví dụ: hàm CURRENT_DATE(), CURRENT_TIME()
 
 https://www.w3schools.com/mysql/mysql_ref_functions.asp
 
+## 9/3/2024: Buổi học 4: Advanced SQL
+
+### Sub Query 
+
+- Chức năng: là câu lệnh truy vấn con  (sub query) , dùng để hỗ trợ câu lệnh truy vấn chính (main query). 
+
+Truy vấn con (inner query) luôn thực hiện trước truy
+vấn chính (outer query) và trả về kết quả cho truy vấn chính. sub query phải được viết trong cặp ngoặc đơn
+
+- Thứ tự:
+SELECT
+
+FROM
+
+WHERE <biểu thức> <toán tử so sánh> (Truy vấn con)
+
+- 3 trường hợp trả về của sub query
+***Trả về 1 giá trị (1 dòng)***
+
+sử dụng toán tử so sánh 
+
+***Trả về 1 cột các giá trị (1 cột nhiều dòng)***
+
+sử dụng toán tử so sánh in
+
+***Trả về nhiều cột nhiều dòng***
+
+Dùng để làm nguồn cho câu lệnh truy vấn khác (Đặt tên cho dữ liệu trả về của sub query 1 cái tên tạm)
+
+### Query in Multiple Table
+
+***1. Sử dụng phép toán kết hợp - JOIN***
+
+3 cách Dùng để kết hợp dữ liệu giữa hai bảng
+
+- INNER JOIN: phép kết bằng. chọn các dòng dữ liệu khớp trong cả 2 bảng. không bắt buộc thứ tự của các bảng
+
+- OUTER JOIN: phép kết ưu tiên. các nào khai báo trước sẽ được ưu tiên trước. coi chữ join là tâm, phân chia thành 2 trường hợp ở dưới:
+
++ LEFT OUTER JOIN
+
++ RIGHT OUTER JOIN
+
+- CROSS JOIN: phép kết chéo. chọn tất cả các dòng của 2 bảng
+
+Cú pháp:
+
+SELECT */ tên cột
+
+FROM Bảng A ACROS JOIN Bảng B;
+
+### UNION
+
+
+### CTE (common table expression)
+
+### View
+
+### Window Functions
 

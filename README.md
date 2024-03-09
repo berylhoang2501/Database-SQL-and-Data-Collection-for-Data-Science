@@ -236,9 +236,9 @@ Dùng để làm nguồn cho câu lệnh truy vấn khác (Đặt tên cho dữ 
 
 - OUTER JOIN: phép kết ưu tiên. các nào khai báo trước sẽ được ưu tiên trước. coi chữ join là tâm, phân chia thành 2 trường hợp ở dưới:
 
-+ LEFT OUTER JOIN
+LEFT OUTER JOIN
 
-+ RIGHT OUTER JOIN
+RIGHT OUTER JOIN
 
 - CROSS JOIN: phép kết chéo. chọn tất cả các dòng của 2 bảng
 

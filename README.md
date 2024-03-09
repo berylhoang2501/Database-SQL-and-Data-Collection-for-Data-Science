@@ -212,7 +212,8 @@ FROM
 
 WHERE <biểu thức> <toán tử so sánh> (Truy vấn con)
 
-- 3 trường hợp trả về của sub query
+- 3 trường hợp trả về của sub query:
+
 ***Trả về 1 giá trị (1 dòng)***
 
 sử dụng toán tử so sánh 

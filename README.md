@@ -228,7 +228,7 @@ Dùng để làm nguồn cho câu lệnh truy vấn khác (Đặt tên cho dữ 
 
 ### Query in Multiple Table
 
-***1. Sử dụng phép toán kết hợp - JOIN***
+***Sử dụng phép toán kết hợp - JOIN***
 
 3 cách Dùng để kết hợp dữ liệu giữa hai bảng
 
@@ -250,6 +250,20 @@ FROM Bảng A ACROS JOIN Bảng B;
 
 ### UNION
 
+- Dùng để kết hợp hai bộ kết quả của hai truy vấn SELECT với nhau.
+- kết hợp theo vị trí cột thay vì tên cột
+
+***1. Union***
+
+loại bỏ những giá trị trùng 
+
+![Ảnh màn hình 2024-03-09 lúc 23 50 33](https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/c0c0b2fa-8604-4df1-a0e7-80652229c52a)
+
+***2. Union all***
+
+lấy luôn cả giá trị trùng 
+
+![Ảnh màn hình 2024-03-09 lúc 23 50 57](https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/5409fa19-37f1-4f0e-8c84-3fc97d1c6be8)
 
 ### CTE (common table expression)
 

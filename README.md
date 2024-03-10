@@ -196,6 +196,8 @@ Ví dụ: hàm CURRENT_DATE(), CURRENT_TIME()
 
 https://www.w3schools.com/mysql/mysql_ref_functions.asp
 
+https://www.w3schools.com/sql/func_mysql_date_format.asp
+
 ## 9/3/2024: Buổi học 4: Advanced SQL
 
 ### Sub Query 

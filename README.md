@@ -86,6 +86,8 @@ từ 1 → 255)
 đến 24.00.00)
 - TIMESTAMP: giống 2 kiểu trên nhưng thêm vào micro giây
 
+https://www.w3schools.com/sql/func_mysql_date_format.asp
+
 ***4. Kiểu dữ liệu lớn (LOB large object)***
 
 ### SELECT FROM

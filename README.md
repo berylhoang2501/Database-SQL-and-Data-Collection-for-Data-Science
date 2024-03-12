@@ -267,9 +267,27 @@ lấy luôn cả giá trị trùng
 
 ![Ảnh màn hình 2024-03-09 lúc 23 50 57](https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/5409fa19-37f1-4f0e-8c84-3fc97d1c6be8)
 
+## 9/3/2024: Buổi học 4: Advanced SQL
+
 ### CTE (common table expression)
+
+- là cách đặt tên cho truy vấn con (trong câu truy vấn chính) bằng từ khóa WITH
 
 ### View
 
+- View tạo ra từ câu truy vấn →View cũng được xem là bảng ảo (virtual table)
+
+- View cung cấp dữ liệu như một bảng
+SELECT *FROM <tên view>
+
 ### Window Functions
+***1. Hàm ROW_NUMBER()***
+- Chức năng: dùng đánh số thứ tự 
+- order by 
+- phân nhóm PARTITION
+
+***2. Hàm RANK()***
+- Chức năng: xếp hạng
+- dense_rank(): khác hàm rank ở chỗ sau khi xếp xong những người đồng hạng thì vẫn đánh số thứ tự tiếp nối chứ không bỏ qua bất kì số nào như hàm rank
+- Hàm NTILE(n): chia n nhóm
 

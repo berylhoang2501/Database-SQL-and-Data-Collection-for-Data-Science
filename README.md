@@ -267,7 +267,7 @@ lấy luôn cả giá trị trùng
 
 ![Ảnh màn hình 2024-03-09 lúc 23 50 57](https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/5409fa19-37f1-4f0e-8c84-3fc97d1c6be8)
 
-## 9/3/2024: Buổi học 4: Advanced SQL
+## 10/3/2024: Buổi học 5: Advanced SQL
 
 ### CTE (common table expression)
 

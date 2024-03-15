@@ -326,7 +326,7 @@ SELECT *FROM <tên view>
 
 <img width="635" alt="Ảnh màn hình 2024-03-15 lúc 17 41 24" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/3081d4db-4158-46c7-a120-0c8f6bbe4e6c">
 
-***3.Các đối tượng chính trong Python DB API:***
+***3. Các đối tượng chính trong Python DB API:***
 
 **Đối tượng Connection:** Thực hiện kết nối đến Database, Quản lý các phiên (session) làm việc
 
@@ -353,4 +353,10 @@ Các phương thức của Cursor:
 - fetchall(): trả về tất cả các dòng (giống select *)
 
 - close(): đóng cursor
+
+### Kết nối MySQL Database từ Python
+
+### Magic SQL
+
+### Lưu kết quả truy vấn vào DataFrame
 

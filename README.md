@@ -354,6 +354,8 @@ Các phương thức của Cursor:
 
 - close(): đóng cursor
 
+***4. Thực hiện câu truy vấn có truyền tham số***
+
 ### Kết nối MySQL Database từ Python
 
 ### Magic SQL

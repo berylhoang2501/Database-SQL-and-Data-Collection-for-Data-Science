@@ -299,7 +299,7 @@ SELECT *FROM <tên view>
 
 ***Hoạt động cơ bản của DB APIs:***
 
-![Uploading Ảnh màn hình 2024-03-15 lúc 16.54.35.png…]()
+<img width="545" alt="Ảnh màn hình 2024-03-15 lúc 16 56 17" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/4cef7f7d-cc6a-4597-b78b-f0291d79548d">
 
 - connect
 

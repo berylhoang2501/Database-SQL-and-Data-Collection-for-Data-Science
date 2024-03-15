@@ -47,12 +47,9 @@ Có thể chia SQL ra làm 4 nhóm lệnh
 
 - SELECT FROM (Query): được sử dụng để truy vấn dữ liệu từ cơ sở dữ liệu, để lấy thông tin từ một hoặc nhiều bảng dữ liệu và hiển thị kết quả theo yêu cầu
 
-- DML(Data Manipulation Language): sử dụng để thực hiện các thay đổi trong bảng dữ liệu trong cơ sở dữ liệu. Các lệnh DML bao
-gồm INSERT, UPDATE và
-DELETE
+- DML(Data Manipulation Language): sử dụng để thực hiện các thay đổi trong bảng dữ liệu trong cơ sở dữ liệu. Các lệnh DML bao gồm INSERT, UPDATE và DELETE
 
-- DDL(Data Definition Language): sử dụng để quản lý cấu trúc (phần khung) của cơ sở dữ liệu. Các lệnh
-DDL bao gồm CREATE (tạo), ALTER
+- DDL(Data Definition Language): sử dụng để quản lý cấu trúc (phần khung) của cơ sở dữ liệu. Các lệnh DDL bao gồm CREATE (tạo), ALTER
 (sửa) và DROP (xóa) 
 
 - DCL(Data Control Language):  quản lý quyền truy cập và an toàn dữ liệu trong cơ sở dữ liệu.
@@ -204,8 +201,7 @@ https://www.w3schools.com/sql/func_mysql_date_format.asp
 
 - Chức năng: là câu lệnh truy vấn con  (sub query) , dùng để hỗ trợ câu lệnh truy vấn chính (main query). 
 
-Truy vấn con (inner query) luôn thực hiện trước truy
-vấn chính (outer query) và trả về kết quả cho truy vấn chính. sub query phải được viết trong cặp ngoặc đơn
+Truy vấn con (inner query) luôn thực hiện trước truy vấn chính (outer query) và trả về kết quả cho truy vấn chính. sub query phải được viết trong cặp ngoặc đơn
 
 - Thứ tự:
 SELECT
@@ -290,4 +286,30 @@ SELECT *FROM <tên view>
 - Chức năng: xếp hạng
 - dense_rank(): khác hàm rank ở chỗ sau khi xếp xong những người đồng hạng thì vẫn đánh số thứ tự tiếp nối chứ không bỏ qua bất kì số nào như hàm rank
 - Hàm NTILE(n): chia n nhóm
+
+## 14/3/2024: Buổi học 6: Truy cập Database từ Python
+### Tổng quan
+***Ưu điểm của Python khi làm việc với database***
+- Thích hợp với các ứng dụng bóc tách, chuyển đổi, phân tích dữ liệu: big data - data mining
+- Python có nhiều thư viện hỗ trợ trong việc xử lý dữ liệu: NumPy, Pandas, Matplotlib, Seaborn, SciPy,...
+
+***Mô hình truy cập DB:***
+- Python truy cập đến DB thông qua việc gọi các API (Application Programming Interface) tương ứng với mỗi loại DB
+- API cung cấp nhiều hàm (có thể gọi) để truy cập vào các hệ quản trị CSDL nhằm đọc và xử lý dữ liệu
+
+***Hoạt động cơ bản của DB APIs:***
+
+![Uploading Ảnh màn hình 2024-03-15 lúc 16.54.35.png…]()
+
+- connect
+
+- send là bước tạm ghi nhận 
+
+- execute(): yêu cầu thực thi câu lệnh truy vấn
+
+- status check()
+
+- ok: phản hồi kết quả của 4 câu lệnh trên
+
+- disconnect(): ngắt phiên làm việc với database
 

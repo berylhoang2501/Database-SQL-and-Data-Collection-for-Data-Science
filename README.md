@@ -312,7 +312,45 @@ SELECT *FROM <tên view>
 - ok: phản hồi kết quả của 4 câu lệnh trên
 
 - disconnect(): ngắt phiên làm việc với database
-- 
+
 ***DB APIs được sử dụng trên một số DBMS phổ biến:***
   
 <img width="656" alt="Ảnh màn hình 2024-03-15 lúc 17 33 33" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/cfd6d079-3efe-4304-8a70-42ca58faaf30">
+
+### Thư viện truy cập Database DB-API
+***1. Sử dụng DB-API***
+- DB-API là thư viện chuẩn của Python dùng để truy cập cơ sở dữ liệu quan hệ.
+- DB-API cho phép Python truy cập đến bất kỳ loại cơ sở dữ liệu quan hệ nào
+
+***2. Một số thư viện thường dùng để kết nối:***
+
+<img width="635" alt="Ảnh màn hình 2024-03-15 lúc 17 41 24" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/3081d4db-4158-46c7-a120-0c8f6bbe4e6c">
+
+***3.Các đối tượng chính trong Python DB API:***
+
+**Đối tượng Connection:** Thực hiện kết nối đến Database, Quản lý các phiên (session) làm việc
+
+Các phương thức của Connection:
+
+- cursor(): trả về 1 đối tượng cursor (sử dụng cursor để thực hiện lệnh)
+
+- commit(): dùng để cập nhật các thay đổi về Database
+
+- rolback(): undo
+
+- close(): ngắt kết nối với database
+
+**Đối tượng Cursor:** Cursor được tạo ra từ Connection, Cursor cho phép thực hiện các truy vấn dữ liệu (thông qua Connection)
+
+Các phương thức của Cursor:
+
+- execute(): thực hiện câu truy vấn, đi tìm dòng câu lệnh truy vấn để đọc ra
+
+- fetchone(): trả về dòng tiếp theo trong tập kết quả. Nếu đọc không có dòng thì trả về None
+
+- fetchmany([numRows]): trả về số dòng được chỉ định. Nếu không còn dòng nào sẽ trả về rỗng, mặc định numRows = 1
+
+- fetchall(): trả về tất cả các dòng (giống select *)
+
+- close(): đóng cursor
+

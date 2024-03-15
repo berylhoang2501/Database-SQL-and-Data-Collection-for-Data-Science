@@ -312,4 +312,7 @@ SELECT *FROM <tên view>
 - ok: phản hồi kết quả của 4 câu lệnh trên
 
 - disconnect(): ngắt phiên làm việc với database
-
+- 
+***DB APIs được sử dụng trên một số DBMS phổ biến:***
+  
+<img width="656" alt="Ảnh màn hình 2024-03-15 lúc 17 33 33" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/cfd6d079-3efe-4304-8a70-42ca58faaf30">

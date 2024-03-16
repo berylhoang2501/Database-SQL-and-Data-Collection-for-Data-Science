@@ -362,7 +362,7 @@ Các phương thức của Cursor:
 
 ### Lưu kết quả truy vấn vào DataFrame
 
-# 16/3/2024: PostgreSQL
+# 16/3/2024: PostgreSQL, SQLite (mở rộng)
 
 - data directory: /Library/PostgreSQL/16/data
 

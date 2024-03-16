@@ -240,6 +240,8 @@ RIGHT OUTER JOIN
 
 - CROSS JOIN: phép kết chéo. chọn tất cả các dòng của 2 bảng
 
+![z5228694410812_da07a9dc0baa313055a00c42feecb365](https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/4312aba7-5e8d-47b5-8270-06e40b733cc0)
+
 Cú pháp:
 
 SELECT */ tên cột

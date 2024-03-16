@@ -362,3 +362,36 @@ Các phương thức của Cursor:
 
 ### Lưu kết quả truy vấn vào DataFrame
 
+# 16/3/2024: PostgreSQL
+
+- data directory: /Library/PostgreSQL/16/data
+
+**MySQL:**
+
+=> Port: 3306
+
+=> IDE: MySQL Workbench
+
+=> Account: root - Beryl/1983
+
+**PortgreSQL:**
+
+=> Port: 5432
+
+=> IDE: pgAdmin4
+
+=> Account: postgres - Beryl/1983
+
+Lỗi Restore => File => References => Paths => Binary paths => Browse đến thư mục bin của PostgreSQL  => Chọn phiên bản PostgreSQL phù hợp
+
+- Làm việc trên Python: pip3 install psycopg2
+
+**Trình tự:**
+
+Kết nối => conn
+
+cursor
+
+execute
+
+close

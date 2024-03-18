@@ -270,6 +270,9 @@ lấy luôn cả giá trị trùng
 ### CTE (common table expression)
 
 - là cách đặt tên cho truy vấn con (trong câu truy vấn chính) bằng từ khóa WITH
+- cú pháp:
+
+<img width="636" alt="Ảnh màn hình 2024-03-19 lúc 00 01 51" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/70d2023c-8cc3-4c16-bdaf-238e2d488020">
 
 ### View
 

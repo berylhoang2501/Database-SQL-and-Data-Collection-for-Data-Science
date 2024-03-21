@@ -400,3 +400,53 @@ cursor
 execute
 
 close
+
+# 17/3/2024: Buổi học 8: FugueSQL
+## Giới thiệu FugueSQL
+
+- được thiết kế cho người dùng SQL với dữ liệu lớn (big data).
+
+- FugueSQL đc dùng để xử lý phía client (các tập tin ngay trên máy mình)
+
+- cho phép thể hiện logic cho quy trình công việc tính toán phân tán end-to-end.
+
+- có thể được kết hợp với mã Python để sử dụng các lệnh SQL.
+
+- hỗ trợ xử lý phân tán dữ liệu trên nhiều máy và có khả năng mở rộng (scale-out) để xử ýl lượng dữ liệu lớn.
+
+- cung cấp khả năng xử ýl dữ liệu phi cấu trúc và có thể tương tác với các nguồn dữ liệu đa dạng như JSON, Parquet, csv,...
+
+- cung cấp một giao diện thống nhất, cho phép cùng một mã SQL chạy trên Pandas, Dask và Spark.
+
+**Cài đặt FugueSQL:**
+
+MacOS: pip3 install "fugue[sql]"
+
+
+## Đọc/Ghi dữ liệu từ tập tin 
+
+***1. Phân loại tập tin***
+
+- Tập tin có định dạng CSV:
+
+- Tập tin có định dạng Parquet: hỗ trợ xử lý phân trang, khi dữ liệu nhiều quá thì chia trang web để đọc 
+
+***Tóm tắt nội dung học***
+
+- Ghi tập tin: SAVE OVERWRITE
+
+- Đọc tập tin: LOAD
+
+- Thực hiện câu lệnh truy vấn:
+
+    + Dùng dataframe để làm nguồn cho câu lệnh truy vấn
+
+    + Đọc tập tin và truy vấn trực tiếp từ tập tin đã đọc (không có mệnh đề FROM)
+
+## Truy vấn dữ liệu
+
+- infer_schema=true dùng để xác định thêm kiểu dữ liệu lúc hiển thị 
+
+## Aggregate Functions và WindowFunctions (áp dụng những chức năng tính toán thống kê)
+
+## Hàm tự định nghĩa

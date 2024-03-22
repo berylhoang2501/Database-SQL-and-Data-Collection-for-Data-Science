@@ -191,6 +191,10 @@ Ví dụ: hàm ABS(),POW()
 
 Ví dụ: hàm CURRENT_DATE(), CURRENT_TIME()
 
+DATE_ADD(date, INTERVAL 1 DAY): Thêm một ngày vào ngày date.
+
+DATE_SUB(date, INTERVAL 1 WEEK): Trừ một tuần khỏi ngày date.
+
 https://www.w3schools.com/mysql/mysql_ref_functions.asp
 
 https://www.w3schools.com/sql/func_mysql_date_format.asp

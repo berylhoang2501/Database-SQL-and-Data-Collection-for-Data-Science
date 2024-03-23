@@ -286,15 +286,28 @@ lấy luôn cả giá trị trùng
 SELECT *FROM <tên view>
 
 ### Window Functions
+
+sử dụng các hàm tính toán và các hàm tính toán dựa trên tập hợp các dòng (subset ~window) mà vẫn giữ nguyên các dòng
+
+Cú pháp chung:
+
+<img width="1082" alt="Ảnh màn hình 2024-03-23 lúc 20 28 06" src="https://github.com/berylhoang2501/Database-SQL-and-Data-Collection-for-Data-Science/assets/152646327/3300ada2-7a24-4003-8d3d-36de09ef3771">
+
 ***1. Hàm ROW_NUMBER()***
 - Chức năng: dùng đánh số thứ tự 
-- order by 
-- phân nhóm PARTITION
+- order by: SELECT ROW_NUMBER OVER(ORDER BY SALARY DESC) 
+- phân nhóm PARTITION: SELECT ROW_NUMBEROVER(PARTITION BY DEPARTMENT_ID ORDER BY SALARY DESC) 
 
 ***2. Hàm RANK()***
 - Chức năng: xếp hạng
+- order by: SELECT RANK() OVER(ORDER BY SALARY DESC) 
 - dense_rank(): khác hàm rank ở chỗ sau khi xếp xong những người đồng hạng thì vẫn đánh số thứ tự tiếp nối chứ không bỏ qua bất kì số nào như hàm rank
-- Hàm NTILE(n): chia n nhóm
+
+***3. Hàm NTILE(n)***
+- Chức năng: chia n nhóm
+- order by: SELECT NTILE(20) OVER(ORDER BY SALARY)
+
+***4. Aggregate functions***
 
 ## 14/3/2024: Buổi học 6: Truy cập Database từ Python
 ### Tổng quan

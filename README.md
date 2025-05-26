@@ -252,6 +252,9 @@ SELECT */ tên cột
 
 FROM Bảng A ACROS JOIN Bảng B;
 
+<img width="557" alt="Ảnh màn hình 2025-05-26 lúc 13 19 57" src="https://github.com/user-attachments/assets/75d95051-69f6-42f0-a281-8b140328fd92" />
+
+
 ### UNION
 
 - Dùng để kết hợp hai bộ kết quả của hai truy vấn SELECT với nhau.
